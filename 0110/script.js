@@ -7,20 +7,21 @@ const clue = document.getElementById("clue");
 
 
 
-clue.style.display = "none";
+
 function nospaces(t) {
     if (t.value.match(/\s/g)) {
         t.value = t.value.replace(/\s/g, '');
     }
-}
+};
 
 
-btn.onclick = function () {
-    console.log(value.value)
+clue.style.display = "none";
+btn.addEventListener("click", function() {
+    
     if (value.value == "luna") {
-        box.style.display = "none";
+         box.style.display = "none";
         clue.style.display = "block";
-    }
-
-
-}
+    } else{
+        alert("Wrong Answer")
+    };
+});
