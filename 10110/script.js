@@ -2,7 +2,7 @@ const btn = document.getElementById("btn");
 const box = document.getElementById("box");
 const value = document.getElementById("value");
 const clue = document.getElementById("clue");
-clue.style.display = "none";
+
 
 
 
@@ -12,7 +12,7 @@ function nospaces(t) {
     }
 };
 
- 
+ clue.style.display = "none";
 btn.addEventListener("touchstart", function() {
     
     if (value.value == "dennisritchie") {
