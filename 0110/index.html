@@ -16,7 +16,7 @@
             </h1>
             <p>Guess the player in the image given above;  hint : jersey  name</p>
             
-                <input placeholder="Searth the internet..." type="text" id="value" name="text" class="input" onkeyup="nospaces(this)">
+                <input oninput="this.value=this.value.toLowerCase()" placeholder="Searth the internet..." type="text" id="value" name="text" class="input" onkeyup="nospaces(this)">
                 <button class="btn" id="btn"> Summit
                 </button>
             
