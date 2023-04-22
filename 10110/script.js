@@ -13,9 +13,10 @@ function nospaces(t) {
 };
 
  clue.style.display = "none";
+const text =value.toLowerCase();
 btn.addEventListener("click", function() {
     
-    if (value.value == "dennisritchie") {
+    if (text == "dennisritchie") {
          box.style.display = "none";
         clue.style.display = "block";
     } else{
