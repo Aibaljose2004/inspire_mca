@@ -10,7 +10,7 @@ function nospaces(t) {
     if (t.value.match(/\s/g)) {
         t.value = t.value.replace(/\s/g, '');
     }
-}
+};
 
  
 btn.addEventListener('click', function (){
@@ -21,5 +21,5 @@ btn.addEventListener('click', function (){
     }
 
 
-}
-                     });
+});
+                    
