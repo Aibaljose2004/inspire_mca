@@ -16,7 +16,7 @@
             </h1>
             <p>Guess the Company in the image given above;  </p>
             
-                <input placeholder="Enter your answer..." type="text" id="value" name="text" class="input" onkeyup="nospaces(this)">
+                <input oninput="this.value=this.value.toLowerCase()" placeholder="Enter your answer..." type="text" id="value" name="text" class="input" onkeyup="nospaces(this)">
                 <button class="btn" id="btn"> Summit
                 </button>
                
