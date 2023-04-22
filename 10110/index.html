@@ -22,7 +22,7 @@
                 <p>Guess the name of the above Show person, Summit your answer to get clue to the next Qr code</p>
             </div>
             <div class="input">
-                <input type="text" placeholder="Enter your Answer" id="value" onkeyup="nospaces(this)">
+                <input oninput="this.value=this.value.toLowerCase()" type="text" placeholder="Enter your Answer" id="value" onkeyup="nospaces(this)">
             </div>
             <div class="btn" id="btn">
                 Summit
