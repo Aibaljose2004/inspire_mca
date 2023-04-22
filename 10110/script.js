@@ -13,7 +13,7 @@ function nospaces(t) {
 };
 
  clue.style.display = "none";
-btn.addEventListener("touchstart", function() {
+btn.addEventListener("click", function() {
     
     if (value.value == "dennisritchie") {
          box.style.display = "none";
