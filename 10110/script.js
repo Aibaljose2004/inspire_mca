@@ -13,13 +13,13 @@ function nospaces(t) {
 };
 
  
-btn.addEventListener('click', function (){
-    console.log(value.value)
+btn.addEventListener("touchstart", function() {
+    
     if (value.value == "dennisritchie") {
-        box.style.display = "none";
+         box.style.display = "none";
         clue.style.display = "block";
-    }
-
-
+    } else{
+        alert("Wrong Answer")
+    };
 });
                     
