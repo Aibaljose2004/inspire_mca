@@ -12,7 +12,7 @@ function nospaces(t) {
     }
 };
 
- clue.style.display = "none";
+
 
 btn.addEventListener("click", function() {
     
