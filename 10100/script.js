@@ -16,7 +16,7 @@ function nospaces(t) {
 
 btn.addEventListener("click", function() {
     
-    if (value.value == "computer") {
+    if (value.value == "son") {
          box.style.display = "none";
         clue.style.display = "block";
     } else{
