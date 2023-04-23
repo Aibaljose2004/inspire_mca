@@ -94,5 +94,10 @@ img {
    .btn:active {
     background-color: #87dbd0;
    }
+
+ .display{
+    display: none;
+
+   }
    
    
