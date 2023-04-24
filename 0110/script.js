@@ -18,7 +18,7 @@ function nospaces(t) {
 
 btn.addEventListener("click", function() {
     
-    if (value.value == "luna") {
+    if (value.value == "hello") {
          box.style.display = "none";
         clue.style.display = "block";
     } else{
